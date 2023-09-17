@@ -8,17 +8,39 @@
 
 </head>
 <body>
-    <img src="FNY-CH-claude_monet_le_bassin_aux_nympheas.png">
-    <div class ="grid-container">
-        <div class="grid-item grid-item-1"> </div>
-        <div class="grid-item grid-item-2"> </div>
-        <div class="grid-item grid-item-3"> </div>
-
-
+    <div class="pictures">
+        <img src="poster 1.jpg"
+        class="poster1">
+        <img src="poster 2.jpg"
+        class="poster2">
+        <img src="poster 3.jpg"
+        class="poster3">
 
     </div>
+   
+        <div class="text">
+            <p>Please fill out the form below if intersented in purchasing this artwork.</p>
 
+            <form action="formsubmitted.html" method="GET">
+
+                
+                <label for="firstname">Full name:</label><br>
+                <input type="text" id="FullName" name="full name" value="">
+                
+
+
+                <!--short hand version-->
+                <label>
+                    Email:
+                    <input type="email" id="email " name="email" value="">
+                </label>
+                <br>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
 
     
+
+
 </body>
 </html>
